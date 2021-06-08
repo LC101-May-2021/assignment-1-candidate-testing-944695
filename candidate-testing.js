@@ -42,7 +42,7 @@ function gradeQuiz(candidateAnswers) {
   for (i = 0; i < 5; i++)
   {
      //console.log(`The user's responses is ${candidateAnswers[i]}. The correct response is ${correctAnswers[i]}.`);
-
+// comment
     if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase())
     {
       correctNumber++;
